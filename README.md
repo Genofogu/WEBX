@@ -1,35 +1,35 @@
-# 🎓 Student Internship & Project Board
+# Student Internship & Project Board
 
 A modern full-stack web application that connects students with organizations offering internships and academic projects. The platform enables students to create profiles, organizations to post opportunities, and both parties to manage internship applications through an intuitive dashboard.
 
 ---
 
-## ✨ Features
+# Features
 
-### 👨‍🎓 Student Management
+## Student Management
 
 * Register new students
 * Store student information in the database
 * View student profiles
 * Manage skills and contact details
 
-### 🏢 Internship Listings
+## Internship Listings
 
 * Create internship and project opportunities
 * Add organization details, role, stipend, duration, and required skills
 * View all available listings
 
-### 📄 Application System
+## Application System
 
 * Students can apply for internships
 * Store applications in the database
-* Track application status
+* Track application status:
 
   * Pending
   * Shortlisted
   * Rejected
 
-### 📊 Dashboard
+## Dashboard
 
 * Total Students
 * Total Listings
@@ -37,7 +37,7 @@ A modern full-stack web application that connects students with organizations of
 * Total Shortlisted Candidates
 * Live database statistics
 
-### ⭐ Bonus Features
+## Bonus Features
 
 * Skill matching between students and listings
 * Highlight matching opportunities
@@ -45,7 +45,7 @@ A modern full-stack web application that connects students with organizations of
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Frontend
 
@@ -61,11 +61,11 @@ A modern full-stack web application that connects students with organizations of
 
 ## Database
 
-* SQLite *(or MongoDB depending on implementation)*
+* SQLite (or MongoDB depending on implementation)
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Student-Internship-Project-Board/
@@ -91,7 +91,7 @@ Student-Internship-Project-Board/
 
 ---
 
-# 🗄 Database Schema
+# Database Schema
 
 ## Students
 
@@ -104,8 +104,6 @@ Student-Internship-Project-Board/
 | skills  | Text        |
 | bio     | Text        |
 | contact | Text        |
-
----
 
 ## Listings
 
@@ -120,8 +118,6 @@ Student-Internship-Project-Board/
 | contact         | Text        |
 | posted_at       | DateTime    |
 
----
-
 ## Applications
 
 | Field      | Type                             |
@@ -135,7 +131,7 @@ Student-Internship-Project-Board/
 
 ---
 
-# 🔌 REST API
+# REST API
 
 ## Student APIs
 
@@ -144,16 +140,12 @@ Student-Internship-Project-Board/
 | POST   | `/students` | Register a student |
 | GET    | `/students` | Get all students   |
 
----
-
 ## Listing APIs
 
 | Method | Endpoint    | Description               |
 | ------ | ----------- | ------------------------- |
 | POST   | `/listings` | Create internship listing |
 | GET    | `/listings` | Get all listings          |
-
----
 
 ## Application APIs
 
@@ -165,9 +157,9 @@ Student-Internship-Project-Board/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
-## 1. Clone Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/student-internship-project-board.git
@@ -177,15 +169,11 @@ git clone https://github.com/yourusername/student-internship-project-board.git
 cd student-internship-project-board
 ```
 
----
-
 ## 2. Install Dependencies
 
 ```bash
 npm install
 ```
-
----
 
 ## 3. Start the Backend
 
@@ -199,19 +187,15 @@ or
 node server.js
 ```
 
----
+## 4. Open the Application
 
-## 4. Open the Frontend
-
-Open:
-
-```text
+```
 http://localhost:3000
 ```
 
 ---
 
-# 💾 Sample Data
+# Sample Data
 
 ### Student
 
@@ -225,8 +209,6 @@ http://localhost:3000
   "contact": "john@example.com"
 }
 ```
-
----
 
 ### Internship Listing
 
@@ -243,7 +225,7 @@ http://localhost:3000
 
 ---
 
-# 🎯 Project Workflow
+# Project Workflow
 
 ```text
 Student Registration
@@ -269,23 +251,23 @@ Dashboard Updated Instantly
 
 ---
 
-# 📸 Project Demonstration
+# Project Demonstration
 
 This project demonstrates:
 
-* ✅ Student Registration
-* ✅ Internship Listing Creation
-* ✅ Database Read & Write Operations
-* ✅ CRUD Functionality
-* ✅ RESTful APIs
-* ✅ Application Tracking
-* ✅ Status Management
-* ✅ Dashboard Analytics
-* ✅ Responsive User Interface
+* Student Registration
+* Internship Listing Creation
+* Database Read and Write Operations
+* CRUD Functionality
+* RESTful API Development
+* Application Tracking
+* Status Management
+* Dashboard Analytics
+* Responsive User Interface
 
 ---
 
-# 🎯 Learning Objectives
+# Learning Objectives
 
 * Full-Stack Development
 * Backend API Development
@@ -293,13 +275,13 @@ This project demonstrates:
 * CRUD Operations
 * Express.js
 * Node.js
-* SQLite/MongoDB
+* SQLite or MongoDB
 * Responsive UI Design
 * REST API Integration
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Anu Gaur**
 
@@ -307,10 +289,6 @@ MCA Student | Full Stack Developer
 
 ---
 
-# 📜 License
+# License
 
 This project is created for educational and learning purposes. Feel free to use and modify it for personal or academic projects.
-
----
-
-⭐ If you found this project useful, consider giving it a **Star** on GitHub!
